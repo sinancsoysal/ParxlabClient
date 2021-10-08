@@ -5,6 +5,11 @@
     <TargetFramework>net5.0</TargetFramework>
     <StartupObject>ParxlabClient.Program</StartupObject>
     <ApplicationIcon />
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\Users\Administrator\Desktop\parxlab\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
